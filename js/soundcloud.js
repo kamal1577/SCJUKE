@@ -3,7 +3,7 @@
 class SCJukebox{
     constructor(id){
             this.id = id ;
-            this.SCplaylist = [];
+            this.playlist = [];
             // var currentTrack = 0;
 
 
@@ -66,7 +66,7 @@ getPlaylist(){
 
 setPlaylist(arr){
 
-            for (var i=0; i<arr.lenght; i++){
+            for (var i=0; i<arr.length; i++){
               this.playlist.push(arr[i]);
       }
    }
@@ -97,11 +97,11 @@ streamById(trackId){
    });
  }
 
- diplaySongsResult(song){
+ displaySongsResult(song){
 
-     document.getElementById('playlist').innerHTML = response.title;
+     document.getElementById('playlist').innerHTML = song.title;
 
-     document.getElementById('artwork').src = tracks[current].artwork_url || 'http://' + q + '.jpg.to'
+//      document.getElementById('artwork').src = tracks[current].artwork_url || 'http://' + q + '.jpg.to'
 
  }
 
