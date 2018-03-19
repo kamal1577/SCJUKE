@@ -8,6 +8,6 @@
 * HTML/CSS is properly formatted
 * Javascript (JS) throws no errors
 
-###What users could do with it:
+## What users could do with it:
 * Users could play a track of SoundCloud based on its track ID or by Term .
 * Users could pause and stop the currently playing track .
